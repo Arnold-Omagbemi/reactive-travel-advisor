@@ -19,6 +19,7 @@
     "mini-css-extract-plugin": "2.4.5"
   },
   "scripts": {
+    "preinstall": "npx npm-force-resolutions && node preinstallHotfix",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
